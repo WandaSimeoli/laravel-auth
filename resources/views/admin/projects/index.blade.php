@@ -4,6 +4,7 @@
 
 @section('main-content')
 <div class="container-sm">
+<a href="{{route('admin.projects.create')}}" class="btn btn-primary mb-2">Add</a>
 <table class="table">
     <thead>
         <tr>
